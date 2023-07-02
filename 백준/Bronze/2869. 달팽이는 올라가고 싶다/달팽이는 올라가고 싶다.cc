@@ -8,9 +8,9 @@ int cnt = 0;
 int main(void) {
     cin >> a >> b >> v;
     
-    cnt = (v-a)/(a-b) + 1;
+    cnt = (v-b)/(a-b);
     
-    if((v-a)%(a-b) != 0) {
+    if((v-b)%(a-b) != 0) {
     	cnt++;
 	}
         
